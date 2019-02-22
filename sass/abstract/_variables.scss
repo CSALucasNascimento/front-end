@@ -1,0 +1,46 @@
+:root {
+
+  /*! = gap
+  -------------------------------------------------------------- */
+  --gap: 1.25rem;
+
+
+  /*! = typography
+  -------------------------------------------------------------- */
+  --font-light:     200;
+  --font-regular:   400;
+  --font-bold:      700;
+  --font-black:     900;
+  --font-primary:   'Montserrat', sans-serif;
+  
+
+  /*! = sizes
+  -------------------------------------------------------------- */
+  --font-size-small:	    12px;
+  --font-size-regular:	  14px;
+  --font-size-large:	    22px;
+  --font-size-x-large:	  36px;
+  --font-size-xx-large:	  48px;
+  --font-size-xxx-large:	64px;
+  --font-size-xxxx-large:	96px;
+
+  /*! = theme color
+  -------------------------------------------------------------- */
+  --color-red:      rgba(231,29,54,1);
+  --color-yellow:   rgba(249,190,58,1);
+  --color-primary:  rgb(37, 45, 130, 1);
+  --color-secondary:rgba(141, 215, 246, 1);
+  --color-white:    rgba(255,255,255,1);
+  --color-black:    rgba(0,0,0,1);
+  --color-grey:     rgba(112,112,112);
+
+
+  /*! = break points
+  -------------------------------------------------------------- */
+  --app-width: minmax(auto, 6rem);
+
+  /*! = section height
+  -------------------------------------------------------------- */
+  --section-height: 700px;
+
+}

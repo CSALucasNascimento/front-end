@@ -1,0 +1,25 @@
+.form-access {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #CBCBCB;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-top:none !important;
+    border-right: none!important;
+    border-left: none!important;
+    border-bottom:2px solid #6ADC91 !important;
+    border-radius: unset;
+}
+.form-access:focus{
+   
+   outline: none!important;
+}
+.timetable-section{
+    margin-top: 35px;
+}

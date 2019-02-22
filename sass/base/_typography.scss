@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-regular);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-primary);
+}
+
+h1 {
+    font-size: var(--font-size-xx-large);
+}
+
+h2 {
+    font-size: var(--font-size-large);
+}
+
+h3 {
+    font-size: var(--font-size-x-large);
+    font-weight: var(--font-black);
+}
+
+h4 {
+    font-size: var(--font-size-regular);
+    font-weight: var(--font-black);
+}
+p{
+    font-size: var(--font-size-large);
+    color: var(--color-grey);
+}

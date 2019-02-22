@@ -1,0 +1,29 @@
+.bread{
+    width: 369px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 12px;
+    margin-top: 10px;
+    
+    
+    
+}
+.bread:first-child{
+    margin-left: 0;
+}
+.bread label{
+    color:#2DA577;
+    margin-top: 10px;
+}
+
+.active{
+    background-color: #2DA577;
+
+}
+.disabled{
+    background-color: #CBCBCB;
+}
+.label-disabled{
+    color: #CBCBCB!important;
+}

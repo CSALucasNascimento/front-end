@@ -1,0 +1,16 @@
+header nav ul li {
+    list-style: none;
+}
+
+nav#main-menu {
+    ul li:not(:first-child) {
+        margin-left: var(--gap);
+    }
+}
+
+nav#language-menu {
+    align-self: end;
+    ul li:not(:first-child) {
+        margin-left: var(--gap);
+    }
+}

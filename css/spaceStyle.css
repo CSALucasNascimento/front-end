@@ -1,0 +1,163 @@
+/* general*/
+body{
+    color: #707070;
+}
+/* menu*/
+.logoImg{
+    width: 200px;
+}
+.imagem{
+    background-image: url("./img/office1.jpeg");
+}
+.title{
+    font-size: 21px;
+    font-weight: bold;
+}
+.btn{
+    -webkit-box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
+    box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
+    padding:0.75rem;font-family:'Varela Round';
+    font-size:80%;
+    text-transform:uppercase;
+   /*letter-spacing:.15rem;*/
+    border:0;
+    border-radius: 37px;
+}
+/* side a*/
+/* slide section */
+.slide-sec{
+    
+    height: 300px;
+    border-radius: 15px;
+    padding: 0;
+}
+/* category and price section */
+.category{
+    display: inline-block;
+}
+.catPrice{
+   margin-top: 5%;
+}
+.price{
+    float: right;   
+}
+.catPrice .price p{
+    color: #6ADC91;
+    margin: 0px;
+}
+
+/* -----fim category and price section----- */
+
+.include-sec{
+    background-color: #f0f0f0;
+}
+.warn-sec{
+    background-color: #D4B710;
+}
+/*side b*/
+
+
+.book-sec{
+    background-color: #f0f0f0;
+    border-radius: 15px;
+}
+
+.userImg{
+    width: 20%;
+    float: left;
+}
+.infoUser{
+    float: right;
+    width: 75%;
+    
+}
+
+.incluIcon{
+    width: 5%;
+}
+.listItens{
+    list-style: none;
+   
+}
+.listItens li{
+
+}
+/*contato section */
+.signup-section{
+    padding:10rem 0;
+  
+    background-color: #686868;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-size:cover
+}
+.signup-section .form-inline input{
+    -webkit-box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
+    box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
+    padding:1.25rem 2rem;
+    height:auto;
+    font-family:'Varela Round';
+    font-size:80%;
+    text-transform:uppercase;
+    letter-spacing:.15rem;
+    border:0
+}
+.navbar-nav{
+    margin: 0 auto !important;
+}
+
+
+footer{padding:1rem 0}
+
+
+.map{
+    width: 100%;
+  
+    min-height: 300px;
+}
+
+.availability{
+    background-color: #6D6A6A;
+    
+        min-height: 300px;
+
+}
+
+/* ----- similar spaces section -----*/
+.similar-spaces{
+    background-color: #000;
+    
+        min-height: 300px;
+
+}
+.similar-spaces .card{
+    position:relative;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    min-width:0;
+    word-wrap:break-word;
+    background-color:#fff;
+    background-clip:border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius:.25rem;
+    float: left;
+    max-width: 16rem;
+    margin-left: 28px;
+    
+}
+.similar-spaces .card:first-child {  
+    margin: 0;
+ } 
+ .similar-spaces .card:last-child {  
+    
+    float: right;
+ }     
+
+ .card-price{
+     
+ }
+
+.oculta { display:none; }
